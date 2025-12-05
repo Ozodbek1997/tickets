@@ -1,4 +1,4 @@
-package com.portfolio.tickets.domain;
+package com.portfolio.tickets.domain.entities;
 
 
 import jakarta.persistence.Column;
