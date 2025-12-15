@@ -1,6 +1,6 @@
 package com.portfolio.tickets.domain.dtos;
 
-import com.portfolio.tickets.domain.enums.EventStatusEnum;
+import com.devtiro.tickets.domain.entities.EventStatusEnum;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;

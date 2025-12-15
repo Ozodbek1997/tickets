@@ -1,6 +1,6 @@
 package com.portfolio.tickets.domain.dtos;
 
-import com.portfolio.tickets.domain.enums.TicketStatusEnum;
+import com.devtiro.tickets.domain.entities.TicketStatusEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

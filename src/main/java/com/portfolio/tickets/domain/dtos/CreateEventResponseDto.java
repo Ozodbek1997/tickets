@@ -1,5 +1,6 @@
 package com.portfolio.tickets.domain.dtos;
 
+import com.devtiro.tickets.domain.entities.EventStatusEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,7 +21,7 @@ public class CreateEventResponseDto {
   private String venue;
   private LocalDateTime salesStart;
   private LocalDateTime salesEnd;
-  private com.portfolio.tickets.domain.enums.EventStatusEnum status;
+  private EventStatusEnum status;
   private List<CreateTicketTypeResponseDto> ticketTypes;
   private LocalDateTime createdAt;
   private LocalDateTime updatedAt;

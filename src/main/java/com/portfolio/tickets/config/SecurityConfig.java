@@ -1,5 +1,6 @@
 package com.portfolio.tickets.config;
 
+import com.devtiro.tickets.filters.UserProvisioningFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -14,7 +15,7 @@ public class SecurityConfig {
   @Bean
   public SecurityFilterChain filterChain(
       HttpSecurity http,
-      com.portfolio.tickets.filters.UserProvisioningFilter userProvisioningFilter,
+      UserProvisioningFilter userProvisioningFilter,
       JwtAuthenticationConverter jwtAuthenticationConverter) throws Exception {
     http
         .authorizeHttpRequests(authorize ->

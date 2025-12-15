@@ -1,7 +1,7 @@
 package com.portfolio.tickets.filters;
 
-import com.portfolio.tickets.domain.entities.User;
-import com.portfolio.tickets.repository.UserRepository;
+import com.devtiro.tickets.domain.entities.User;
+import com.devtiro.tickets.repositories.UserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
